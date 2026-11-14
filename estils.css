@@ -185,3 +185,55 @@ h1, h2, h3 {
 @media (prefers-reduced-motion: reduce) {
   .done { animation: none; }
 }      
+.nav_block{
+  top: 0;
+  position: sticky; 
+  box-shadow: 0 0 1px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;  
+  max-width: 1200px;
+  height: 67;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_interna{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 216;
+}
+
+.nav_interna>a{
+  color: #6E7480;
+  text-decoration: none;  
+}
+
+.nav_interna>a:hover{
+  color: black;
+}
+
+.book_demo{
+  background-color: black;
+  padding-top: 12px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  border-radius: 999px;
+  color: white;
+  text-decoration: none;  
+}
+
+.book_demo:hover{
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 24px -10px gray;  
+}
